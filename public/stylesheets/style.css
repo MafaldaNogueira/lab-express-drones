@@ -6,3 +6,83 @@ body {
 a {
   color: #00b7ff;
 }
+
+.createbtn{
+  color: rgb(43, 125, 139);
+  font-size: 17px;
+}
+
+.createbtn:hover{
+  color: white;
+  background-color: rgb(43, 125, 139);
+  text-decoration: none;
+}
+
+.listdrones {
+  color: rgb(43, 125, 139);
+  font-size: 17px;
+}
+
+.listdrones:hover{
+  color: white;
+  background-color: rgb(43, 125, 139);
+  text-decoration: none;
+}
+
+.available {
+  background-color: rgb(43, 125, 139);
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+#listdisplay h3 {
+
+  width: 345px;
+  font-size: 23px;
+  border-bottom: 1px dashed rgb(43, 125, 139);
+}
+
+.card{
+margin-right: 70px;
+border: none !important;
+}
+
+.editbtn {
+  background-color: rgb(43, 125, 139);
+  color: white;
+  padding: 11px 30px;
+}
+
+.delbtn {
+  background-color: rgb(43, 125, 139);
+  color: white;
+  padding: 7px 30px;
+  border: none;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -21px;
+}
+
+
+#listdisplay {
+  flex-direction: column;
+    display: flex;
+    margin: 57px;
+}
+
+#createdrone {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnOne{
+  width: 90px;
+  padding: 10px;
+}
